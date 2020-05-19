@@ -1,0 +1,25 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    ArrayList list = new ArrayList() {1,"r",4,7,3,"Q",5,"l",8,2,"t","Y",9,"m",6 };
+    objectList.Remove("r");
+    objectList.Remove("Q");
+    objectList.Remove("l");
+    objectList.Remove("t");
+    objectList.Remove("Y");
+    objectList.Remove("m");
+    
+    for (int i=0;i< objectList.Count;i++)
+    {
+      Console.WriteLine(objectList[i]);
+    }
+    Console.WriteLine("/n");
+    ArrayList objectlist =new ArrayList(){"Q","Y"};
+    Foreach(object o in objectlist)
+    {
+      Console.WriteLine(o);
+    }
+    Console.ReadLine();
+  }
+}
